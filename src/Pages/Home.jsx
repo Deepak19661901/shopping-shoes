@@ -11,7 +11,7 @@ const Home = () => {
   const renderData = filterdData.length>0 ? filterdData:shoesData
   return (
     <>
-    <SortedShoes/>
+    <SortedShoes/> //added Soretd functionality
     <div className='w-full flex flex-wrap px-2 sm:px-4 md:px-6 lg:px-8 xl:px-10  pt-24 justify-center '>
    
       {
